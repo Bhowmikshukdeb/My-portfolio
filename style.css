@@ -401,6 +401,12 @@ i{
     margin-bottom: 10px;
 }
 
+.socical_icons .icon a {
+    color: inherit;        /* Inherit color from parent */
+    text-decoration: none; /* Removes the underline */
+}
+
+
 
 /**********about-info ****************/
 
