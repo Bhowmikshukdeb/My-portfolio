@@ -18,12 +18,14 @@ toggleswitch.addEventListener("click", () => {
 //................. typing effect....................
 
 var typingEffect = new Typed(".typedText", {
-  strings: ["Web Developer", "Coder", "Designer"],
-
+  strings: [ "Développeur web","Passionné de code","Explorateur de tech","Étudiant en informatique"],
   typeSpeed: 100,
   backSpeed: 80,
   backDelay: 1000,
+  loop: true
 });
+
+
 
 // """""""""""""""""""""scroll Animation"""""""""""""""""""""
 
